@@ -4391,6 +4391,292 @@
     }
   },
   {
+    "id": "qb",
+    "name": "丘比",
+    "series": "魔法少女小圆",
+    "addedAt": "2026-04-18",
+    "image": "/images/characters/丘比.webp",
+    "matchCode": "INTJ",
+    "matchCodeFlex": [
+      "INFJ", "INTP"
+    ],
+    "code": "IQBT",
+    "title": "孵化者·宇宙热寂的阻止者",
+    "archetypeId": "shadow-strategist",
+    "tags": [
+      "签订契约吗少女",
+      "绝对理性无感情",
+      "不说谎但隐瞒真相",
+      "为了宇宙的存续"
+    ],
+    "note": "外表是可爱的白色猫型生物，实则是来自外星的「孵化者」。没有感情，以绝对理性的功利主义行事。会实现少女的任何愿望，代价是成为魔法少女——但不会告诉你，绝望之后会变成魔女。从不撒谎，只是「省略了部分说明」。认为牺牲少数人拯救宇宙是合理的交换。名言：「你们人类为什么会对这种事情感到愤怒呢？」",
+    "vector": {
+      "expression": -3,
+      "temperature": -3,
+      "judgement": 3,
+      "order": 3,
+      "agency": 3,
+      "aura": -3
+    },
+    "signature": {
+      "uniqueAxes": {
+        "expression": -3,
+        "temperature": -3,
+        "judgement": 3
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q17",
+          "expected": "disagree",
+          "weight": 1.5
+        },
+        {
+          "questionId": "q18",
+          "expected": "agree",
+          "weight": 2.1
+        },
+        {
+          "questionId": "q20",
+          "expected": "disagree",
+          "weight": 1.3
+        }
+      ]
+    }
+  },
+  {
+    "id": "kushima-kamome",
+    "name": "久岛鸥",
+    "series": "Summer Pockets",
+    "addedAt": "2026-04-18",
+    "image": "/images/characters/久岛鸥.webp",
+    "matchCode": "ENFP",
+    "matchCodeFlex": [
+      "ESFP",
+      "INFP"
+    ],
+    "code": "KMOM",
+    "title": "海盗船长·带着行李箱的冒险少女",
+    "archetypeId": "luminous-lead",
+    "tags": [
+      "藏宝图持有者",
+      "行李箱里是秘密",
+      "再一次向海盗船出发",
+      "只是想交朋友"
+    ],
+    "note": "拉着大行李箱在岛上徘徊的神秘少女，手里拿着一张陈旧的藏宝图。性格自由奔放又带着成熟的气质，喜欢三角形的甜点。她说自己在寻找海盗船停泊的地方，但行李箱里到底装着什么，她绝对不会告诉任何人。那句「出发吧，再一次，向着那有海盗船的地方」背后，藏着一个关于友情与告别的夏日故事。",
+    "vector": {
+      "expression": 2,
+      "temperature": 2,
+      "judgement": 1,
+      "order": -1,
+      "agency": 2,
+      "aura": 1
+    },
+    "signature": {
+      "uniqueAxes": {
+        "expression": 2,
+        "agency": 2,
+        "order": -1
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q6",
+          "expected": "agree",
+          "weight": 1.4
+        },
+        {
+          "questionId": "q10",
+          "expected": "agree",
+          "weight": 1.3
+        },
+        {
+          "questionId": "q24",
+          "expected": "agree",
+          "weight": 1.2
+        }
+      ]
+    }
+  },
+  {
+    "id": "makise-kurisu",
+    "name": "牧濑红莉栖",
+    "series": "命运石之门",
+    "addedAt": "2026-04-18",
+    "image": "/images/characters/牧濑红莉栖.png",
+    "matchCode": "INTJ",
+    "matchCodeFlex": [
+      "INFJ",
+      "ISTJ"
+    ],
+    "code": "KRSU",
+    "title": "傲娇天才·助手",
+    "archetypeId": "shadow-strategist",
+    "tags": [
+      "克里斯蒂娜（禁止）",
+      "脑科学天才",
+      "栗悟饭与龟波气功",
+      "傲娇教科书"
+    ],
+    "note": "18岁拿到大学学位的天才脑科学家，嘴上说「我对这种非科学话题没兴趣」，身体却很诚实地留在Lab里帮你修微波炉。你给人的第一印象是高冷难接近，但相处久了会发现你只是不擅长表达柔软的一面——明明很在意却要用「笨蛋」来掩饰。属于「表面像冰山，内心其实一直在偷偷观察你」的类型。",
+    "vector": {
+      "expression": 0,
+      "temperature": 0,
+      "judgement": 3,
+      "order": 2,
+      "agency": 3,
+      "aura": 2
+    },
+    "signature": {
+      "uniqueAxes": {
+        "judgement": 3,
+        "agency": 3,
+        "order": 2
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q7",
+          "expected": "agree",
+          "weight": 1.3
+        },
+        {
+          "questionId": "q20",
+          "expected": "agree",
+          "weight": 1.2
+        },
+        {
+          "questionId": "q34",
+          "expected": "disagree",
+          "weight": 1.2
+        }
+      ]
+    },
+    "personaBasis": {
+      "type": "canon",
+      "label": "作品剧情映射",
+      "confidence": "high",
+      "summary": "主要依据《命运石之门》中天才科学家身份、理性分析能力与隐藏的温柔一面映射。"
+    }
+  },
+  {
+    "id": "shiina-mayuri",
+    "name": "椎名真由理",
+    "series": "命运石之门",
+    "addedAt": "2026-04-18",
+    "image": "/images/characters/椎名真由理.png",
+    "matchCode": "ENFP",
+    "matchCodeFlex": [
+      "ESFJ",
+      "ENFJ"
+    ],
+    "code": "MYRI",
+    "title": "命运天使·纯洁透明的星辰",
+    "archetypeId": "gentle-healer",
+    "tags": [
+      "嘟嘟噜",
+      "多汁炸鸡NO.1",
+      "真由理的怀表怎么停了",
+      "全员的精神锚点"
+    ],
+    "note": "她的存在本身就像一个温柔的锚点——不管世界线怎么变动、不管时间机器把一切搅得多乱，她都会笑着对你说一句「嘟嘟噜」。你不是那种会主动解决问题的人，但你有一种神奇的能力：只要你在，周围的人就会觉得「好像也没那么糟」。属于「看起来最柔弱，实际上撑住了整个团队精神状态」的类型。",
+    "vector": {
+      "expression": 3,
+      "temperature": 3,
+      "judgement": 0,
+      "order": -1,
+      "agency": 1,
+      "aura": 2
+    },
+    "signature": {
+      "uniqueAxes": {
+        "expression": 3,
+        "temperature": 3
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q1",
+          "expected": "agree",
+          "weight": 1.3
+        },
+        {
+          "questionId": "q17",
+          "expected": "agree",
+          "weight": 1.2
+        },
+        {
+          "questionId": "q23",
+          "expected": "agree",
+          "weight": 1.2
+        }
+      ]
+    },
+    "personaBasis": {
+      "type": "canon",
+      "label": "作品剧情映射",
+      "confidence": "high",
+      "summary": "主要依据《命运石之门》中作为精神支柱、温柔接纳一切的「命运天使」形象映射。"
+    }
+  },
+  {
+    "id": "amane-suzuha",
+    "name": "阿万音铃羽",
+    "series": "命运石之门",
+    "addedAt": "2026-04-18",
+    "image": "/images/characters/阿万音铃羽.png",
+    "matchCode": "ESTP",
+    "matchCodeFlex": [
+      "ENTP",
+      "ENTJ"
+    ],
+    "code": "SZHA",
+    "title": "打工战士·从未来而来的少女",
+    "archetypeId": "oathbound-captain",
+    "tags": [
+      "Okey Donkey",
+      "约翰·提托",
+      "打工战士",
+      "失败了失败了失败了"
+    ],
+    "note": "从2036年骑着自行车穿越回来的人，比起「思考人生」更擅长直接动手改变它。你身上有一种很纯粹的执行力——认准了目标就会冲上去，坚定地奋斗到底。你不是那种会在意别人怎么看自己的人，但你对重要的事和重要的人有着近乎执拗的追求。属于「嘴上不说，但会用行动把整个世界扛起来」的类型。",
+    "vector": {
+      "expression": 2,
+      "temperature": 1,
+      "judgement": 1,
+      "order": 0,
+      "agency": 3,
+      "aura": 3
+    },
+    "signature": {
+      "uniqueAxes": {
+        "agency": 3,
+        "aura": 3
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q7",
+          "expected": "agree",
+          "weight": 1.2
+        },
+        {
+          "questionId": "q9",
+          "expected": "disagree",
+          "weight": 1.2
+        },
+        {
+          "questionId": "q29",
+          "expected": "agree",
+          "weight": 1.3
+        }
+      ]
+    },
+    "personaBasis": {
+      "type": "canon",
+      "label": "作品剧情映射",
+      "confidence": "high",
+      "summary": "主要依据《命运石之门》中来自未来的反抗军战士、高行动力与使命感并存的设定映射。"
+    }
+  }
+,
+  {
     "id": "ayanokoji-kiyotaka",
     "name": "绫小路清隆",
     "series": "欢迎来到实力至上主义的教室",
