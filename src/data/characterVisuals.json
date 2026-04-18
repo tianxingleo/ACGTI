@@ -524,6 +524,32 @@
     "thumb": "/images/characters/thumbs/阿尔托莉雅.webp",
     "accent": "#0F4C81"
   },
+  "qb": {
+    "image": "/images/characters/丘比.webp",
+    "thumb": "/images/characters/thumbs/丘比.webp",
+    "accent": "#F5E6E8"
+  },
+  "kushima-kamome": {
+    "image": "/images/characters/久岛鸥.webp",
+    "thumb": "/images/characters/thumbs/久岛鸥.webp",
+    "accent": "#5B9BD5"
+  },
+  "makise-kurisu": {
+    "image": "/images/characters/牧濑红莉栖.webp",
+    "thumb": "/images/characters/thumbs/牧濑红莉栖.webp",
+    "accent": "#C75050"
+  },
+  "shiina-mayuri": {
+    "image": "/images/characters/椎名真由理.webp",
+    "thumb": "/images/characters/thumbs/椎名真由理.webp",
+    "accent": "#87CEEB"
+  },
+  "amane-suzuha": {
+    "image": "/images/characters/阿万音铃羽.webp",
+    "thumb": "/images/characters/thumbs/阿万音铃羽.webp",
+    "accent": "#8B4513"
+  }
+,
   "ayanokoji-kiyotaka": {
     "image": "/images/characters/绫小路清隆.webp",
     "thumb": "/images/characters/thumbs/绫小路清隆.webp",
