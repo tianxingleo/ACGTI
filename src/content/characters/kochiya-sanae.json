@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "kochiya-sanae",
+    "name": "东风谷早苗",
+    "series": "东方Project",
+    "addedAt": "2026-05-27",
+    "matchCode": "ENFP",
+    "matchCodeFlex": [
+      "ESFJ",
+      "ENFJ"
+    ],
+    "code": "SANA",
+    "title": "奇迹的现人神·缺乏常识的巫女",
+    "archetypeId": "chaos-spark",
+    "tags": [
+      "现人神巫女",
+      "常识缺失",
+      "隐藏机甲厨",
+      "妖怪退治狂热者"
+    ],
+    "note": "原本是外界的普通人类，进入幻想乡后由于缺乏常识而显得有些天然呆。性格温顺且极具责任感，但对自家守矢神社有着爆棚的自信（甚至有些嚣张）。起初带着征服幻想乡的野心，被打败后彻底放飞自我，不仅爱上了妖怪退治的快感，还时常暴露出喜欢巨大机器人的理科宅属性。看似常识人，实则是幻想乡中最不具常识的存在。",
+    "vector": {
+      "expression": 0.72,
+      "temperature": 0.65,
+      "judgement": 0.40,
+      "order": 0.55,
+      "agency": 0.68,
+      "aura": 0.60
+    },
+    "signature": {
+      "uniqueAxes": {
+        "expression": 3,
+        "temperature": 2,
+        "agency": 3
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q23",
+          "expected": "agree",
+          "weight": 1.8
+        }
+      ]
+    },
+    "matchWeight": 1.150
+  },
+  "visual": {
+    "image": "/images/characters/东风谷早苗.webp",
+    "thumb": "/images/characters/thumbs/东风谷早苗.webp",
+    "accent": "#72C672"
+  },
+  "i18n": {
+    "name": {
+      "zh-CN": "东风谷早苗",
+      "zh-TW": "東風谷早苗",
+      "en": "Sanae Kochiya",
+      "ja": "東風谷早苗"
+    },
+    "series": {
+      "zh-CN": "东方Project",
+      "zh-TW": "東方Project",
+      "en": "Touhou Project",
+      "ja": "東方Project"
+    },
+    "zh-TW": {
+      "title": "奇蹟的現人神·缺乏常識的巫女",
+      "note": "原本是外界的普通人類，進入幻想鄉後由於缺乏常識而顯得有些天然呆。性格溫順且極具責任感，但對自家守矢神社有著爆棚的自信（甚至有些囂張）。起初帶著征服幻想鄉的野心，被打敗後徹底放飛自我，不僅愛上了妖怪退治的快感，還時常暴露出喜歡巨大機器人的理科宅屬性。看似常識人，實則是幻想鄉中最不具常識的存在。",
+      "tags": [
+        "現人神巫女",
+        "常識缺失",
+        "隱藏機甲廚",
+        "妖怪退治狂熱者"
+      ]
+    },
+    "en": {
+      "title": "Miraculous Arahitogami — Common-Sense-Lacking Shrine Maiden",
+      "note": "Originally an ordinary human from the outside world, she appears somewhat airheaded due to her lack of Gensokyo's common sense. Gentle and highly responsible, yet overwhelmingly confident (sometimes to the point of arrogance) about her Moriya Shrine. Initially harboring ambitions to conquer Gensokyo, she let completely loose after being defeated, discovering a love for youkai extermination while occasionally showing her nerdy obsession with giant robots and sci-fi. Ostensibly normal, she is ironically the one who lacks common sense the most.",
+      "tags": [
+        "Arahitogami Shrine Maiden",
+        "Lacks Common Sense",
+        "Hidden Mecha Nerd",
+        "Youkai Hunting Fanatic"
+      ]
+    },
+    "ja": {
+      "title": "奇跡の現人神・常識に囚われない巫女",
+      "note": "元は外の世界の普通の人間だが、幻想郷に入ってからは常識が通じず、少し天然な一面を見せる。温厚で責任感が強い一方、自分の守矢神社には絶大な自信（時に傲慢なほど）を持っている。当初は幻想郷征服の野望を抱いていたが、敗北後は吹っ切れ、妖怪退治の快感に目覚めたり、巨大ロボット好きの理系オタクな一面を覗かせたりする。常識人のように見えて、実は幻想郷で最も常識に囚われない存在である。",
+      "tags": [
+        "現人神の巫女",
+        "常識の欠如",
+        "隠れロボットオタク",
+        "妖怪退治マニア"
+      ]
+    }
+  }
+}

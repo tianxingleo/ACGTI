@@ -2403,6 +2403,51 @@
     "image": "/images/characters/北白川玉子.webp"
   },
   {
+    "id": "kochiya-sanae",
+    "name": "东风谷早苗",
+    "series": "东方Project",
+    "addedAt": "2026-05-27",
+    "matchCode": "ENFP",
+    "matchCodeFlex": [
+      "ESFJ",
+      "ENFJ"
+    ],
+    "code": "SANA",
+    "title": "奇迹的现人神·缺乏常识的巫女",
+    "archetypeId": "chaos-spark",
+    "tags": [
+      "现人神巫女",
+      "常识缺失",
+      "隐藏机甲厨",
+      "妖怪退治狂热者"
+    ],
+    "note": "原本是外界的普通人类，进入幻想乡后由于缺乏常识而显得有些天然呆。性格温顺且极具责任感，但对自家守矢神社有着爆棚的自信（甚至有些嚣张）。起初带着征服幻想乡的野心，被打败后彻底放飞自我，不仅爱上了妖怪退治的快感，还时常暴露出喜欢巨大机器人的理科宅属性。看似常识人，实则是幻想乡中最不具常识的存在。",
+    "vector": {
+      "expression": 0.72,
+      "temperature": 0.65,
+      "judgement": 0.4,
+      "order": 0.55,
+      "agency": 0.68,
+      "aura": 0.6
+    },
+    "signature": {
+      "uniqueAxes": {
+        "expression": 3,
+        "temperature": 2,
+        "agency": 3
+      },
+      "questionAffinity": [
+        {
+          "questionId": "q23",
+          "expected": "agree",
+          "weight": 1.8
+        }
+      ]
+    },
+    "matchWeight": 1.15,
+    "image": "/images/characters/东风谷早苗.webp"
+  },
+  {
     "id": "kousaka-kirino",
     "name": "高坂桐乃",
     "series": "我的妹妹哪有这么可爱！",
