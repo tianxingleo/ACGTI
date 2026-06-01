@@ -22,7 +22,7 @@ const hiddenCharacterTagsI18n: Record<AppLocale, string[]> = {
   'zh-TW': ['隱藏結果', '低機率命中', '特殊氣質'],
   en: ['Hidden Result', 'Low Probability Hit', 'Special Aura'],
   ja: ['隠し結果', '低確率ヒット', '特殊な気配'],
-}
+} 
 
 const HIDDEN_CHARACTER_IDS = ['phrolova', 'kasugano-sora'] as const
 
@@ -705,13 +705,13 @@ const characterNameI18n: Record<string, LocalizedText> = {
     'zh-TW': '岡部倫太郎',
     en: 'Rintaro Okabe',
     ja: '岡部倫太郎',
-    },
+  },
   'kochiya-sanae': {
-    "zh-CN": "东风谷早苗",
-    "zh-TW": "東風谷早苗",
-    "en": "Sanae Kochiya",
-    "ja": "東風谷早苗"
-    }
+    'zh-CN': '东风谷早苗',
+    'zh-TW': '東風谷早苗',
+    'en': 'Sanae Kochiya',
+    'ja': '東風谷早苗'
+  }
 }
 
 const seriesI18n: Record<string, LocalizedText> = {
