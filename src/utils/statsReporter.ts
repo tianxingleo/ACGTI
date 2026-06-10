@@ -1,5 +1,7 @@
 // 统计上报工具 — fire-and-forget，绝不阻碍页面加载
 
+import { buildApiUrl } from './runtimeApi'
+
 /** 结果页真实统计数据 */
 export interface ResultStats {
   totalSubmissions: number
@@ -21,7 +23,7 @@ export async function fetchResultStats(
 ): Promise<ResultStats | null> {
   try {
     const params = new URLSearchParams({ character: characterCode, archetype: archetypeCode })
-    const res = await fetch(`/api/stats/result?${params.toString()}`)
+    const res = await fetch(buildApiUrl(`/api/stats/result?${params.toString()}`))
     if (!res.ok) return null
     const json = await res.json()
     return json.data ?? null
@@ -81,13 +83,13 @@ export function reportResultInBackground(payload: Omit<SubmitPayload, 'appVersio
     try {
       if (navigator.sendBeacon) {
         const blob = new Blob([body], { type: 'application/json' })
-        const queued = navigator.sendBeacon('/api/submit', blob)
+        const queued = navigator.sendBeacon(buildApiUrl('/api/submit'), blob)
         console.log('📨 sendBeacon queued:', queued)
         if (queued) return
       }
 
       // fallback
-      fetch('/api/submit', {
+      fetch(buildApiUrl('/api/submit'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body,
@@ -109,7 +111,7 @@ export function reportResultInBackground(payload: Omit<SubmitPayload, 'appVersio
  */
 export async function submitFeedback(payload: Omit<FeedbackPayload, 'appVersion'>): Promise<boolean> {
   try {
-    const res = await fetch('/api/feedback', {
+    const res = await fetch(buildApiUrl('/api/feedback'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ ...payload, appVersion: APP_VERSION }),
