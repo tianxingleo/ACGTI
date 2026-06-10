@@ -8,6 +8,7 @@ import { useI18n } from '../i18n'
 import { getLocalizedCharacterName, getLocalizedCharacterSeries } from '../i18n/characters'
 import { resolvePublicAsset } from '../utils/characterVisuals'
 import { useSeo } from '../composables/useSeo'
+import { buildApiUrl } from '../utils/runtimeApi'
 
 useSeo({
   title: 'ACGTI 全局统计 - 测试数据概览',
@@ -147,9 +148,9 @@ function loadMoreCharacters() {
 onMounted(async () => {
   try {
     const [overviewRes, archetypesRes, charactersRes] = await Promise.all([
-      fetchStatsJson('/api/stats/overview'),
-      fetchStatsJson('/api/stats/archetypes'),
-      fetchStatsJson('/api/stats/characters'),
+      fetchStatsJson(buildApiUrl('/api/stats/overview')),
+      fetchStatsJson(buildApiUrl('/api/stats/archetypes')),
+      fetchStatsJson(buildApiUrl('/api/stats/characters')),
     ])
 
     const overviewJson = overviewRes
@@ -378,6 +379,11 @@ onMounted(async () => {
 }
 
 /* Overview cards */
+overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
 .overview-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
