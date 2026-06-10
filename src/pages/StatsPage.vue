@@ -379,11 +379,6 @@ onMounted(async () => {
 }
 
 /* Overview cards */
-overview-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
 .overview-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
